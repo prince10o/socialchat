@@ -1,6 +1,7 @@
 # Social Connection Platform
 
-![Platform Screenshot](screenshot.png)
+![Platform Screenshot](![Uploading Screenshot (22).png…]()
+)
 
 ## Overview
 
