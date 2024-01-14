@@ -1,0 +1,119 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Social Connection Platform</title>
+  </head>
+  <body>
+    <header>
+      <h1>Social Connection Platform</h1>
+      <!-- Navigation links go here -->
+    </header>
+
+    <main>
+      <section id="userProfiles">
+        <h2>User Profiles</h2>
+        <div class="profile">
+          <img src="pexels-photo-11794508.jpeg" alt="Profile Picture" />
+          <h3>Amrit Preet Singh</h3>
+          <p>Interests: Gardening, Reading</p>
+          <p>Bio: Enjoys spending time outdoors and exploring new books.</p>
+          <p>
+            Social Media:
+            <a href="https://twitter.com/johndoe" target="_blank">Twitter</a>
+          </p>
+        </div>
+
+        <div class="profile">
+          <img src="main-qimg-b1fb5eac6a2f98a721c4c42fea426e82-lq.jpeg" alt="Profile Picture" />
+          <h3>Arsh Preet Kour</h3>
+          <p>Interests: Painting, Traveling</p>
+          <p>
+            Bio: Passionate about creating art and exploring different cultures.
+          </p>
+          <p>
+            Social Media:
+            <a href="https://instagram.com/alicesmith" target="_blank"
+              >Instagram</a
+            >
+          </p>
+        </div>
+
+        <div class="profile">
+          <img src="istockphoto-112971789-612x612.jpg" alt="Profile Picture" />
+          <h3>Muskaan ALtaf</h3>
+          <p>Interests: Cooking, Photography</p>
+          <p>
+            Bio: Loves experimenting with new recipes and capturing moments
+            through photography.
+          </p>
+          <p>
+            Social Media:
+            <a href="https://facebook.com/bobjohnson" target="_blank"
+              >Facebook</a
+            >
+          </p>
+        </div>
+
+        <div class="profile">
+          <img src="old-man-6585645_640.jpg" alt="Profile Picture" />
+          <h3>Robin Sharma</h3>
+          <p>Interests: Yoga, Music</p>
+          <p>
+            Bio: Finds peace in yoga practice and enjoys exploring various music
+            genres.
+          </p>
+          <p>
+            Social Media:
+            <a href="https://linkedin.com/in/evawilson" target="_blank"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+
+        <!-- Add more profiles as needed -->
+      </section>
+
+      <section id="activityFeed">
+        <h2>Activity Feed</h2>
+        <!-- Activity feed items go here -->
+      </section>
+
+      <section id="chat">
+        <h2>Chat</h2>
+        <div class="chat-window">
+          <!-- Chat messages go here -->
+        </div>
+        <input
+          type="text"
+          id="messageInput"
+          placeholder="Type your message..."
+        />
+        <button onclick="sendMessage()">Send</button>
+      </section>
+
+      <h2>Settings</h2>
+     
+      <div class="setting-option">
+          <label for="notificationToggle">Receive Notifications:</label>
+          <input type="checkbox" id="notificationToggle" checked>
+      </div>
+
+      <div class="setting-option">
+          <label for="fontSizeRange">Adjust Font Size:</label>
+          <input type="range" id="fontSizeRange" min="10" max="20" value="14">
+      </div>
+
+      <div class="setting-option">
+          <label for="privacyToggle">Enable Private Mode:</label>
+          <input type="checkbox" id="privacyToggle">
+      </div>
+  </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

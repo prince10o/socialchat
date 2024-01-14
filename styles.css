@@ -1,0 +1,126 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+header {
+    background: linear-gradient(to right, #ff6b6b, #5f27cd); /* Gradient colors for the header */
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+.profile-{
+    width: -10px;
+    height: -10px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+main.dark-theme {
+    background-color: #444;
+    color: #fff;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+.setting-option {
+    margin-bottom: 20px;
+    background-color: #6ab04c; /* Light green for setting options */
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+input[type="checkbox"],
+input[type="range"],
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #555;
+    border-radius: 8px;
+    background-color: #4a90e2; /* Dodger blue for input fields */
+    color: #fff;
+}
+
+input[type="checkbox"]:hover,
+input[type="range"]:hover,
+select:hover {
+    border-color: #3498db;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #3498db;
+    border-color: #3498db;
+    color: #fff;
+}
+
+/* Colorful button styles */
+button {
+    background: linear-gradient(to right, #fd5d93, #c100ff); /* Gradient colors for buttons */
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(to right, #ff6b6b, #5f27cd); /* Hover gradient colors */
+}
+
+/* Gradient background for chat window */
+.chat-window {
+    background: linear-gradient(to right, #3498db, #6fa2e1);
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 600px) {
+    main {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}
